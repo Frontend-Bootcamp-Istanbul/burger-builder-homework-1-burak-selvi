@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import {Hamburger, TotalPrice} from "./components";
+import { Hamburger, TotalPrice, IngredientList } from "./components";
 
 
 function App() {
   return (
-      <div>
-        <Hamburger />
-        <TotalPrice />
-      </div>
+    <div>
+      <Hamburger />
+      <TotalPrice />
+      <IngredientList />
+    </div>
   );
 }
 
